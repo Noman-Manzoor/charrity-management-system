@@ -1,0 +1,45 @@
+/* styling the navigation bar */
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 60, 235);
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover:not(.active) {
+    background-color: rgb(24, 185, 37);
+  }
+  .b{
+    background-color: rgb(131, 49, 185,0.5);
+  }
+
+  .a{
+    border: 5px solid;
+    border-radius: 40px;
+    text-align: left;
+    padding: 30px 20px 10px 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 35px;
+    background-color: rgb(149, 204, 214);
+  }
+
+  .pic{
+      background-image: url(./cssimages/bac.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }

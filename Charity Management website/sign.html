@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="pic">
+        <header>
+            <nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="make_donation.html">Make Donation</a></li>
+                <li><a href="request_for_donation.html">Request For Donation</a></li>
+                <li><a href="sign.html">Sign Up</a></li>
+                <li><a href="log_in.html">Log in</a></li>
+            </nav>
+        </header>
+        <hr>
+        <div class="a">
+            <form action="None">
+                <h2>Create Your Account</h2>
+                <label for="fname">Enter First Name: </label>
+                <input type="text" id="fname" placeholder="First Name">
+                <br>
+                <label for="lname">Enter Last Name: </label>
+                <input type="text" id="lname" placeholder="Last Name">
+                <br><br>
+                <label for="mail">Enter Email ID: </label>
+                <input type="mail" id="mail" placeholder="Enter email">
+                <br><br>
+                <label for="pass">password: </label>
+                <input type="password" id="pass" placeholder="Enter password">
+                <br><br>
+                <label for="pass">password again: </label>
+                <input type="password" id="pass" placeholder="password again">
+                <br><br>
+                <label for="gender">Select Your Gender:</label><br>
+                <br>
+                <input type="radio" value="Male" name="gender" id="male">
+                <label for="male">Male</label><br>
+                <br>
+                <input type="radio" value="Female" name="gender" id="female">
+                <label for="female">Female</label><br>
+                <br>
+                <input type="radio" value="Others" name="gender" id="other">
+                <label for="other">Others</label><br>
+                <br>
+                <label for="birthdate">Date of Birth: </label>
+                <input type="date" id="birthdate" value="birthdate">
+                <br><br>
+                <label for="registeration">You want to Register :</label><br>
+                <input type="checkbox" id="selection" name="ngo" value="ngo">
+                <label for="selection"> As a NGO</label><br>
+                <input type="checkbox" id="selection1" name="donor" value="donor">
+                <label for="selection1"> As a Donor</label><br>
+                <input type="checkbox" id="selection2" name="both" value="both">
+                <label for="selection2"> Both</label><br><br>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                    placeholder="(555) 555-1234"><br><br>
+                <label for="address">Address: </label>
+                <input type="text" id="address" placeholder="Enter address here">
+                <br><br>
+                <label for="countries">Choose Your country:</label>
+                <select name="countries" id="countries">
+                    <option value="USA">USA</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Australia">Australia</option>
+                    <option value="England">England</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="UAE">UAE</option>
+                    <option value="India">India</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Others">Others</option>
+                </select>
+                <br><br>
+                <label for="cities">Choose Your city:</label>
+                <select name="city" id="city">
+                    <option value="Others">Others</option>
+                    <option value="New York">New York</option>
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Washington DC">Washington DC</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Bristol">Bristol</option>
+                    <option value="Manchester">Manchester</option>
+                    <option value="Birmingham">Birmingham</option>
+                    <option value="Oxford">Oxford</option>
+                    <option value="Liverpool">Liverpool</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Kolkatta">Kolkatta</option>
+                    <option value="Bombay">Bombay</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+                <br><br>
+                <label for="zip">zip: </label>
+                <input type="quantity" id="zip" placeholder="i.e 74200">
+                <br><br>
+                <label for="reason">Why You want to join Us?</label><br>
+                <textarea name="comment" id="reason" cols="30" rows="10" placeholder="Write reason here"></textarea>
+                <br>
+                <label for="submission">click here to submit:</label>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <br><br><br>
+    </div>
+        <footer class="b">
+            <br><br><br><br><br>
+            <center>
+                <div id="c">
+                    <a href="https://web.facebook.com" target="_blank"><img src="./ngos/icon2.png" alt="Facebook"
+                            title="Follow us on Facebook" width="50px"></a>
+                    <a href="https://twitter.com"><img src="./ngos/twiter.png" alt="Twitter"
+                            title="Follow us on Twitter" width="50px"></a>
+                    <a href="https://www.instagram.com"><img src="./ngos/instragram.jpg" alt="Instragram"
+                            title="Follow us on Instragram" width="50px"></a>
+                    <a href="https://web.whatsapp.com/"><img src="./ngos/whatsapp.jpg" alt="Twitter"
+                            title="Connect us on whatsapp" width="54px"></a>
+                </div>
+                <br>
+
+                <p style="color: white;">Info Support Marketing<br>
+                    Terms of Use Privacy Policy <br>
+                    &copy; Copyright 2021-2022 CharrityManagementSystem.com
+                </p>
+                <br>
+            </center>
+        </footer>
+</body>

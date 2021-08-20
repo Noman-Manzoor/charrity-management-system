@@ -1,0 +1,139 @@
+/* styling the navigation bar */
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(209, 152, 233);
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover:not(.active) {
+    background-color: rgb(24, 185, 37);
+  }
+  
+  .b{
+    background-color: rgb(3, 0, 5);
+  }
+  .heading{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: limegreen;
+
+      margin-left: 30%;
+    
+  margin-right: 35%;
+    text-align: center;
+      margin-top: 35px;
+      margin-bottom: 0%;
+      font-size: x-large;
+      padding: 5px;
+  }
+  #edhi{
+      font-size: larger;
+      background-color: lightgray;
+      border: 1px solid;
+      border-color: slateblue;
+  
+      margin-bottom: 20px;
+  }
+  .goonj{
+    font-size: larger;
+    background-color: lightgray;
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #rdf{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #transparent{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #wikimedia{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #partner{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #care{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+  }
+  #brac{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px
+  }
+  #hospital{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px
+  }
+  #afridi{
+    font-size: larger;
+    background-color: lightgray; 
+    border: 1px solid;
+    border-color: slateblue;
+    margin-top: 20px;
+
+  }
+  #last{
+    font-size: larger;
+    background-color: rgb(69, 140, 150); 
+    border: 1px solid;
+    border-color: slateblue;
+
+  }
+  #pic{
+    background-image: url(./cssimages/bac7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h4{
+    font-size: larger;
+  }
